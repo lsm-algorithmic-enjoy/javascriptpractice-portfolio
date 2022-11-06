@@ -19,7 +19,7 @@
 5. html 요소 생성 및 추가
    <br/>
    document.createElement를 이용하여 html 요소를 생성하고 이것을 document.body.appendChild로 body 맨 뒤에 추가할 수 있다. 만약 요소를 body 맨 앞에 추가하고 싶으면 document.body.prependChild를 이용하면 된다.
-6. Array 변환, forEach 메소드 적용  
+6. Array 변환, forEach 메소드 적용
    <br/>
    JSON.stringify를 통해 string으로 만들 수 있고 이를 통해 localStorage에 데이터를 저장할 수 있다. localStorage에 저장된 string을 JSON.parse를 이용하여 Array로 변환해서 forEach 메소드를 사용하면 각각의 배열 요소들을 화면에 나타낼 수 있다.
 7. id 생성
