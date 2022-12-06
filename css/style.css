@@ -9,8 +9,16 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   position: relative;
   color: white;
+}
+
+.items {
+  width: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @keyframes fadeEffect {
@@ -38,7 +46,7 @@ body {
 }
 
 #clock {
-  font-size: 20px;
+  font-size: 60px;
 }
 #login-form {
 }
